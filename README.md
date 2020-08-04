@@ -1,3 +1,9 @@
+<h1 align="center">
+<!--   <img alt="Ícone do projeto" title="Terminal" src=".github/" width="100px" /> -->
+   <img alt="Logo" src="https://i.imgur.com/kJlW4jI.png">
+</h1>
+</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
