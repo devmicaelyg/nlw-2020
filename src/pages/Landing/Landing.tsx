@@ -8,12 +8,13 @@ import giveClassesIcon from '../../assets/images/icons/give-classes.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
 import './styles.css';
+import { Link } from 'react-router-dom';
 
 const Landing = () => {
     return(
-        <div className="page-landing" id="">
+        <div id="page-landing">
             <div id="page-landing-content" className="container">
-                <div id="logo-container">
+                <div className="logo-container">
                     <img src={logoimg} alt="Proffy" />
                     <h2>Sua plataforma de estudos online</h2>
                 </div>
@@ -25,15 +26,15 @@ const Landing = () => {
             />
 
             <div className="buttons-container">
-                <a href="/" className="study">
+                <Link to="/study" className="study">
                     <img src={studyIcon} alt="Estudar" />
                     Estudar
-                </a>
+                </Link>
 
-                <a href="/" className="give-classes">
+                <Link to="/give-classes" className="give-classes">
                     <img src={giveClassesIcon} alt="Dar aulas" />
-                Estudar
-                </a>
+                Dar Aulas
+                </Link>
             
             </div>
 
