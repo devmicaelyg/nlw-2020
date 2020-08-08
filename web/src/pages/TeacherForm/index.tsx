@@ -116,7 +116,7 @@ const TeacherForm = () => {
                      value={subject}
                      onChange={(e) => { setSubject(e.target.value) }}
                      options = {[
-                         {value: 'JavaScript', label: 'Javascript'},
+                         {value: 'Javascript', label: 'Javascript'},
                          {value: 'NodeJS', label: 'NodeJS'},
                          {value: 'ReactJS', label: 'ReactJS'},
                          {value: 'React Native', label: 'React Native'},
