@@ -73,7 +73,7 @@ import api from '../../services/api';
                 onChange={ e => { 
                     setTime(e.target.value) }}/>
 
-                <button type="submit" onClick={searchTeachers}> Buscar </button>
+                <button type="submit"> Buscar </button>
             </form>
             </PageHeader>
 
