@@ -56,13 +56,15 @@ export default class ClassesController {
         } = req.body;
     
        const trx = await db.transaction();
-    
+        
+       console.log(req.body);
+       
         try{
             const insertUsersIds = await trx('users').insert({
                 name, 
                 avatar,
                 whatsapp,
-                bio,
+                bio
             })
          
             const user_id = insertUsersIds[0];
