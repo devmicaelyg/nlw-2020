@@ -27,7 +27,7 @@ import api from '../../services/api';
                 }
             });
 
-           searchTeachers(response.data)
+         setTeachers(response.data)
         }
 
     return(
