@@ -1,5 +1,5 @@
 <h1 align="center">
-   <img alt="Logo" src="https://imgur.com/a/oXJu1dP">
+   <img alt="Logo" src="//s.imgur.com/min/embed.js">
 </h1>
 </p>
 
